@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS SPACING NOTES
+
+15px padding top+bottom
+5px Rules
+
+*/
+
+/* FONTS IMPORT FROM URL */
+
+/* font-family: 'Playfair Display SC'; */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+
+/* EXTERNAL FONTS */
+
+@font-face {
+    font-family: 'franklin_gothic_fsbook';
+    src: url('../fonts/franklingothic-book-webfont.eot');
+    src: url('../fonts/franklingothic-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franklingothic-book-webfont.woff2') format('woff2'),
+         url('../fonts/franklingothic-book-webfont.woff') format('woff'),
+         url('../fonts/franklingothic-book-webfont.ttf') format('truetype'),
+         url('../fonts/franklingothic-book-webfont.svg#franklin_gothic_fsbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsbook_italic';
+    src: url('../fonts/franklingothic-bookit-webfont.eot');
+    src: url('../fonts/franklingothic-bookit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franklingothic-bookit-webfont.woff2') format('woff2'),
+         url('../fonts/franklingothic-bookit-webfont.woff') format('woff'),
+         url('../fonts/franklingothic-bookit-webfont.ttf') format('truetype'),
+         url('../fonts/franklingothic-bookit-webfont.svg#franklin_gothic_fsbook_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsdemi';
+    src: url('../fonts/franklingothic-demi-webfont.eot');
+    src: url('../fonts/franklingothic-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franklingothic-demi-webfont.woff2') format('woff2'),
+         url('../fonts/franklingothic-demi-webfont.woff') format('woff'),
+         url('../fonts/franklingothic-demi-webfont.ttf') format('truetype'),
+         url('../fonts/franklingothic-demi-webfont.svg#franklin_gothic_fsdemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsdemi_italic';
+    src: url('../fonts/franklingothic-demiit-webfont.eot');
+    src: url('../fonts/franklingothic-demiit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franklingothic-demiit-webfont.woff2') format('woff2'),
+         url('../fonts/franklingothic-demiit-webfont.woff') format('woff'),
+         url('../fonts/franklingothic-demiit-webfont.ttf') format('truetype'),
+         url('../fonts/franklingothic-demiit-webfont.svg#franklin_gothic_fsdemi_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://www.fontify.me/wf/b37f5b3a50d471286e19af9cdbb0c4fb');
+
+/* FONTS IMPORT END */
+
+body {
+    background-color: beige;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+	margin-bottom: 15px;
+	margin-top: 20px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-family: 'franklin_gothic_fsdemi', sans-serif;
+    font-size: 1.77em;
+    margin-top: 0px;
+    
+}
+
+h3 {
+    font-family: 'franklin_gothic_fsbook', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    
+}
+
+p {
+    margin-top: 100px;
+    font-family: 'franklin_gothic_fsbook', sans-serif;
+}
+
+a {
+    color: #2E5077;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #2E5077;
+    text-decoration: none;
+}
+
+
+
+hr {
+    border-style: solid;
+	border-top: thick #000 5px;
+    border-color: #CD5334;
+}
+
+/* TYPOGRAPHY END */
+
+/* MAIN SITE STYLES & CONTAINERS START */
+
+section {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0px 0 0 0;
+}
+
+img {
+    border-radius: 10px;
+}
